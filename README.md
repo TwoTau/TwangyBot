@@ -1,2 +1,2 @@
 # TwangyBot
-A Discord bot that plays twenty questions with you.
+A Discord bot that reminds you.
