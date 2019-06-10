@@ -1,0 +1,25 @@
+{
+  "name": "twangybot",
+  "version": "1.0.0",
+  "description": "Discord bot for scheduling reminders",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwoTau/TwangyBot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwoTau/TwangyBot/issues"
+  },
+  "homepage": "https://github.com/TwoTau/TwangyBot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "moment": "^2.24.0",
+    "node-wit": "^5.0.0"
+  }
+}
