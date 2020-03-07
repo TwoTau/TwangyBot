@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "tsc && node bot.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,13 @@
   },
   "homepage": "https://github.com/TwoTau/TwangyBot#readme",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "@types/node-wit": "^4.2.2",
+    "@types/ws": "^7.2.2",
+    "discord.js": "^12.0.1",
     "moment": "^2.24.0",
     "node-wit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0"
   }
 }

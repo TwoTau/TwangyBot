@@ -2,3 +2,7 @@ node_modules
 Procfile
 
 config.json
+
+db.json
+
+*.js
